@@ -1656,7 +1656,7 @@ static struct usb_function *tmc_alloc(struct usb_function_instance *fi)
 
 DECLARE_USB_FUNCTION_INIT(tmc, tmc_alloc_inst, tmc_alloc);
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Bhoomil Chavda");
+MODULE_AUTHOR("Bhoomil Chavda - bhoomil.chavda@gmail.com");
 
 static int tmc_setup(int count)
 {
